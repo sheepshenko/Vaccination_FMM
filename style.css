@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.txt-blue{
+    color: #3353D1!important;
+}
+.txt-marino{
+    color: #1F3E72
+}
+.txt-gris{
+    color: #66748D;
+}
+
+.bg-blue{
+    background-color: #3353D1;
+}
+
+.bg-white-alfa{
+    background-color: rgba(255,255,255,.8);
+}
+
+body{
+    padding-top: 125px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 1.2rem;
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-pad{
+    padding: 2rem 0;
+}
+
+.btn-blue{
+    background-color: #3353D1;
+    border-radius: 5px;
+    padding: 1rem 2rem!important;
+    font-weight: 500;
+}
+
+.icon-yellos{
+    color: #FFD012;
+    text-align: center;
+}
+
+#nurce{
+    position: relative;
+}
+
+#schedule{
+    position: absolute;
+    bottom: -150px;
+    left: 120px;
+}
+
+.white-space{
+    height: 150px;
+}
+.sch-icon{
+    background-color: #E9F1FD;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #B3C6DD;
+}
+.sch-icon i{
+    color: #2C4CCA;
+    padding: 12px;
+}
+
+.form-schedule{
+    background-color: rgba(255,255,255,0.8);
+    padding: 50px;
+    box-shadow: 5px 5px 35px #9E9E9E;
+}
+
+.espacio{
+    margin-left: 6rem;
+}
+.btn-submit{
+    background-color: #2949C7;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    margin: 1rem 2rem;
+    border-radius: 5px!important;
+}
+.vacuna-logo{
+    filter: grayscale(100%);
+    opacity: .2;
+}
+
+.acordion{
+    margin: 1rem;
+    border: 1px solid #E9F1FD;
+    padding: 1rem;
+}
+
+.chevron{
+    position: absolute;
+    right: 50px;
+}
+
+.carta-beneficios{
+    margin: 1rem;
+    border: 1px solid #E9F1FD;
+    padding: 2rem;
+    width: 19vw;
+}
+
+.ben-icon{
+    background-color: #E9F1FD;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    display: block;
+}
+.ben-icon i{
+    color: #2C4CCA;
+    padding: 21px;
+    font-size: 2rem;
+}
+
+.contact-cart{
+    margin: 1rem;
+    width: 40%;
+    border: 1px solid #E9F1FD;
+    padding: 2rem;
+}
+
+.btn-contact{
+    background-color: #F1F5FF;
+    color: #2C4CCA;
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.btn-contact:hover{
+    background-color: #2C4CCA;
+    color: white;
+}
+
+.space{
+    height: 200px;
+}
+
+footer{
+    background-color: #EEF3FF;
+}
